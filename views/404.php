@@ -37,7 +37,7 @@
             <img class="hidden lg:flex" src="../assets/media/404-image-desk.png" alt="Picture of a happiness graphic going down and a dying emoji">
             <div class="flex flex-col items-center">
                 <span class="text-[#DF6462] font-bold text-5xl lg:text-7xl">Rank 4<span class="text-[#44B562]">0</span>4</span>
-                <p class="text-[#DF6462] font-bold">Connection is no more !</p>
+                <p class="text-[#DF6462] font-bold text-2xl">Connection is no more !</p>
                 <a class="text-[#fff] underline lg:text-2xl" href="home.php">Click here to go back</a>
             </div>
         </div>

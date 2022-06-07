@@ -44,8 +44,4 @@ for($i=0; $i< count($countries); $i++){
     $select->execute();
     $res = $select->fetch(PDO::FETCH_ASSOC);
     var_dump($res);
-    /* $sth = $conn ->prepare($insert_countries);
-    $sth->bindValue(':country', $countries[$i], PDO::PARAM_STR);
-    $sth->bindValue(':countries_id_regions', $res['id_regions'], PDO::PARAM_INT);
-    $sth->execute(); */
 }

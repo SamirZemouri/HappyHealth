@@ -32,47 +32,47 @@
 </head>
 
 <body class="m-0 font-['Montserrat'] bg-[#1A0245] sm:flex sm:justify-around sm:items-center">
-    <main class="sm:w-[550px] md:w-[650px]">
+    <main class="sm:w-[550px] md:w-[650px] lg:w-[800px]">
         <div class="introduction flex flex-col justify-center items-center mx-6">
             <h1 class="text-[#FFF] text-[1.5rem] sm:text-[2rem] font-[700] flex tracking-wide mb-3"><span class="text-[#44B562]"> H
                 </span> ealth</h1>
-            <p class="font-light text-[#fff] text-[0.8rem] text-justify mb-5 ">
+            <p class="font-light text-[#fff] text-[0.8rem] lg:text-[1rem] text-justify mb-5 ">
                 Human <span class="font-medium">life expectancy</span> is one of the most widely used statistical
                 indicators in the field of demographic
                 forecasting and projections, and to assess <span class="font-medium">the level of development</span> and
                 the human development index of a
                 state or region of the world. </p>
             <button type="button"
-                class="btn_health self-start text-[#fff] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-[0.8rem] px-8 py-1 sm:px-12 sm:py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900">Health</button>
+                class="btn_health self-start text-[#fff] bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-[0.8rem] lg:text-[1rem] px-8 py-1 sm:px-12 sm:py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900">Health</button>
 
         </div>
 
         <div class="stats w-full flex justify-around sm:mb-10">
             <div
                 class="world_health_day w-5/12 bg-[#1A0245] flex justify-center items-center flex-col rounded-2xl relative mt-10">
-                <div class="circle_info flex justify-center items-center absolute w-8 h-8 rounded-full top-[-1rem]">
+                <div class="circle_info flex justify-center items-center absolute w-8 h-8 lg:w-12 lg:h-12 rounded-full top-[-1rem] lg:top-[-1.5rem]">
                     <span class="iconify info opacity-100" data-icon="maki:information" style="color: #44b562;"></span>
                 </div>
-                <h3 class="text-[#44B562] font-bold text-[0.7rem] mb-2 mt-5">World Health Day</h3>
-                <h5 class="text-[#fff] font-medium text-[0.7rem] mb-2">7 April 2022</h5>
+                <h3 class="text-[#44B562] font-bold text-[0.7rem] lg:text-[1rem] mb-2 mt-5">World Health Day</h3>
+                <h5 class="text-[#fff] font-medium text-[0.7rem] lg:text-[0.9rem] mb-2">7 April 2022</h5>
                 <span class="iconify text-[2rem] mb-3" data-icon="ci:external-link" style="color: #44b562;"></span>
             </div>
             <div
                 class="champion_health mr-5px w-5/12 bg-[#1A0245] flex justify-center items-center flex-col rounded-2xl relative mt-10">
-                <div class="circle_info flex justify-center items-center absolute w-8 h-8 rounded-full top-[-1rem]">
+                <div class="circle_info flex justify-center items-center absolute w-8 h-8 rounded-full top-[-1rem] lg:top-[-1.5rem] lg:w-12 lg:h-12">
                     <span class="iconify" data-icon="fa-solid:trophy" style="color: #44b562;"></span>
                 </div>
-                <h3 class="text-[#44B562] font-bold text-[0.7rem] mb-2 mt-5">Champion of health</h3>
+                <h3 class="text-[#44B562] font-bold text-[0.7rem] lg:text-[1rem] mb-2 mt-5">Champion of health</h3>
                 <div class="info_flag flex justify-center items-center">
                     <img class="mr-2" src="assets/media/Iceland_flag.png" alt="Flag of Iceland">
                     <div class="info_text flex flex-col justify-center items-center text-[#fff] text-[0.7rem]">
-                        <h3>Iceland</h3>
-                        <h3 class="text-[#787878]">0,95</h3>
+                        <h3 class="lg:text-[0.9rem]">Iceland</h3>
+                        <h3 class="text-[#787878] lg:text-[0.9rem]">0,95</h3>
                     </div>
                 </div>
-                <div class="arrow_year flex w-11/12 items-center justify-between mt-3 ">
+                <div class="arrow_year flex w-11/12 items-center justify-between mt-3  w-4/6">
                     <span class="iconify cursor-pointer" data-icon="akar-icons:arrow-left" style="color: #44b562;"></span>
-                    <h3 class="text-[0.7rem] text-[#787878] mb-[0.5rem]">2022</h3>
+                    <h3 class="text-[0.7rem] text-[#787878] mb-[0.5rem] lg:text-[0.9rem]">2022</h3>
                     <span class="iconify cursor-pointer" data-icon="akar-icons:arrow-left" style="color: #44b562;" data-rotate="180deg"></span>
                 </div>
 
@@ -80,10 +80,10 @@
         </div>
 
 
-        <div class="graph rounded-2xl flex justify-center items-center mt-5 mx-6 sm:mb-10 p-5">
+        <div class="graph rounded-2xl flex justify-center items-center mt-5 mx-6 sm:mb-10 p-8 lg:p-10">
             <canvas id="myChart"></canvas>
         </div>
-        <div class="second_graph rounded-2xl flex justify-center items-center mt-5 mx-6 sm:mb-10 p-5">
+        <div class="second_graph rounded-2xl flex justify-center items-center mt-5 mx-6 sm:mb-10 p-8 lg:p-10">
             <canvas id="myChart2"></canvas>
         </div>
 

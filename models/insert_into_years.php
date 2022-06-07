@@ -10,7 +10,7 @@ $years = [];
 
 // condition permettant de récupérer les données du fichier .csv
 if (($handle = fopen("../world-happiness-report-2015-2022.csv", "r")) !== FALSE) {
-    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
         if($row == 1){ $row++; continue; }
         $num = count($data);
         $row++;

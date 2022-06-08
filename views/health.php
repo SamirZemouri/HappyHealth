@@ -31,9 +31,9 @@
         rel="stylesheet">
 </head>
 
-<body class="m-0 font-['Montserrat'] bg-[#1A0245] sm:flex sm:justify-around sm:items-center">
-    <main class="sm:w-[550px] md:w-[650px] lg:w-[800px]">
-        <div class="introduction flex flex-col justify-center items-center mx-6">
+<body class="m-0 font-['Montserrat'] bg-[#1A0245] xl:bg-[#200355]  sm:flex sm:justify-around sm:items-center">
+    <main class="sm:w-[550px] md:w-[650px] lg:w-[800px] xl:flex xl:flex-wrap">
+        <div class="introduction flex flex-col justify-center items-center mx-6 xl:w-1/2">
             <h1 class="text-[#FFF] text-[1.5rem] sm:text-[2rem] font-[700] flex tracking-wide mb-3"><span class="text-[#44B562]"> H
                 </span> ealth</h1>
             <p class="font-light text-[#fff] text-[0.8rem] lg:text-[1rem] text-justify mb-5 ">
@@ -47,7 +47,7 @@
 
         </div>
 
-        <div class="stats w-full flex justify-around sm:mb-10">
+        <div class="stats w-full flex justify-around sm:mb-10  xl:w-">
             <div
                 class="world_health_day w-5/12 bg-[#1A0245] flex justify-center items-center flex-col rounded-2xl relative mt-10">
                 <div class="circle_info flex justify-center items-center absolute w-8 h-8 lg:w-12 lg:h-12 rounded-full top-[-1rem] lg:top-[-1.5rem]">
@@ -88,24 +88,24 @@
         </div>
 
         <div class="podium rounded-2xl flex flex-col justify-center items-center mt-5 mx-6 p-5">
-                <h1 class="text-[#44B562]">Top 3 countries per year</h1>
+                <h1 class="text-[#44B562] xl:text-[1.5rem]">Top 3 countries per year</h1>
             <div class="arrow_year flex w-5/12 items-center justify-between mt-3">
-                <span class="iconify cursor-pointer" data-icon="akar-icons:arrow-left" style="color: #44b562;"></span>
-                <h3 class="text-[0.7rem] text-[#787878]">2022</h3>
-                <span class="iconify cursor-pointer" data-icon="akar-icons:arrow-left" style="color: #44b562;" data-rotate="180deg"></span>
+                <span class="iconify cursor-pointer xl:text-[1.5rem] xl:font-bold " data-icon="akar-icons:arrow-left" style="color: #44b562;"></span>
+                <h3 class="text-[0.7rem] xl:text-[1rem] text-[#787878]">2022</h3>
+                <span class="iconify cursor-pointer xl:text-[1.5rem]" data-icon="akar-icons:arrow-left" style="color: #44b562;" data-rotate="180deg"></span>
             </div>
-            <div class="full_podium mb-5 flex items-end">
+            <div class="full_podium mb-5 flex justify-center items-end xl:w-[600px]">
                 <div class="second_podium flex flex-col justify-center items-center border-none">
                     <h3 class="name_podium text-[#fff] border-none">Denmark</h3>
-                    <div class="place_podium border-none rounded-tl-[3px] rounded-bl-[3px] bg-[#44B562] w-20 h-5 text-[#fff] flex justify-center items-center">2</div>
+                    <div class="place_podium border-none rounded-tl-[3px] rounded-bl-[3px] bg-[#44B562] w-20 h-5 xl:w-[200px] lg:w-[180px] lg:h-[30px] xl:h-[36px] text-[#fff] flex justify-center items-center">2</div>
                 </div>
                 <div class="first_podium flex flex-col justify-center items-center border-none">
                     <h3 class="name_podium text-[#fff] border-none"">Finland</h3>
-                    <div class="place_podium border-none rounded-t-[3px] bg-[#44B562] w-20 h-8 text- flex justify-center items-center text-[#fff]">1</div>
+                    <div class="place_podium border-none rounded-t-[3px] bg-[#44B562] w-20 h-8 xl:w-[200px] lg:w-[180px] lg:h-[48px] xl:h-[48px] text- flex justify-center items-center text-[#fff]">1</div>
                 </div>
                 <div class="third_podium flex flex-col justify-center items-center border-none">
                     <h3 class="name_podium text-[#fff] border-none"">Iceland</h3>
-                    <div class="place_podium border-none rounded-tr-[3px] rounded-br-[3px] bg-[#44B562] w-20 h-4 text- flex justify-center items-center text-[#fff]">3</div>
+                    <div class="place_podium border-none rounded-tr-[3px] rounded-br-[3px] bg-[#44B562] w-20 h-4 lg:w-[180px] lg:h-[24px] xl:w-[200px] xl:h-[32px] text- flex justify-center items-center text-[#fff]">3</div>
                 </div>
             </div>
 

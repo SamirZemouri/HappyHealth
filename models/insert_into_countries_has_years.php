@@ -55,7 +55,6 @@ if (($handle = fopen("../world-happiness-report-2015-2022.csv", "r")) !== FALSE)
         $req_sel_countries->bindValue(':country', $data[2], PDO::PARAM_STR);
         $req_sel_countries->execute();
         $res_countries = $req_sel_countries->fetch(PDO::FETCH_ASSOC);
-        var_dump($data[4]);
         // insertion des liaisons des id des tables en fonction de leur valeurs sur le csv
         $req_ins->bindValue(':countries_id', $res_countries['id'], PDO::PARAM_STR);
         $req_ins->bindValue(':years_id', $res_years['id'], PDO::PARAM_STR);

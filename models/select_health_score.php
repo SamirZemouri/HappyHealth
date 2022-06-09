@@ -8,7 +8,7 @@ function get_health_score($conn){
     $req_health_score = $conn->prepare($req_select_health_score);
     // Execution de la requête
     $req_health_score->execute();
-    // Récupération de la liste de tous les pays
+    // Récupération de la liste de tous les pays, toutes les années et toutes les valeurs pour le health score
     $health_score = $req_health_score->fetchAll(PDO::FETCH_ASSOC);
 
     // Execution de la fonction

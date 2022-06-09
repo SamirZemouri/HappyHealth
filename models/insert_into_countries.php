@@ -30,7 +30,6 @@ if (($handle = fopen("../world-happiness-report-2015-2022.csv", "r")) !== FALSE)
         //laison des id des regions sur la colonne id_regions de la table
         $sth->bindValue(':countries_id_regions', $res['id'], PDO::PARAM_INT);
         $sth->execute();
-        $sth->debugDumpParams();
 
     }
     fclose($handle);

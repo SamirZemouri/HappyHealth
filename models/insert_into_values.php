@@ -1,6 +1,6 @@
 <?php
 // inclure ici le fichier qui relie à la connection de la base de donnée
-include 'connect.php';
+require_once 'connect.php';
 
 $row = 1;
 // requête permettant d'ajouter les valeurs dans la table, INSERT INTO [nom-de-la-table](colonne-de-la-table) VALUES (:valeur)

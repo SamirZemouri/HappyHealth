@@ -1,8 +1,8 @@
 <?php
 
-// Fonction permettant de récupérer tous les pays dans la BDD
+// Fonction permettant de joindre la table regions sur la table countries
 function join_countries($conn){
-    // Requête SQL pour récupérer la colonne "country" dans la table "countries"
+    // Requête SQL pour récupérer les colonnes "country" et "region" et les joindre sur la table "countries"
     $req_join_on_countries = "SELECT country, region FROM countries INNER JOIN regions ON regions.id = countries.id_regions";
     // Préparation de la requête
     $req_join_regions = $conn->prepare($req_join_on_countries);

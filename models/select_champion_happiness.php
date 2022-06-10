@@ -9,7 +9,7 @@ function get_happiness_champion($conn){
     // Execution de la requête
     $req_happiness_champion->execute();
     // Récupération de la liste de tous les pays, toutes les années et toutes les valeurs pour le happiness score
-    $happiness_champion = $req_happiness_champion5->fetchAll(PDO::FETCH_ASSOC);
+    $happiness_champion = $req_happiness_champion->fetchAll(PDO::FETCH_ASSOC);
 
     // Execution de la fonction
     return $happiness_champion;

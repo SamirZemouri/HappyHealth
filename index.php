@@ -5,7 +5,7 @@ $url = explode('/', $_SERVER['REQUEST_URI']);
 
 // Switch qui permet de rediriger l'utilisateur selon l'url entrée.
 switch ($url[2]) {
-    case '' :
+    case 'home' :
         require __DIR__ . '/views/home.php';
         break;
     case 'happy' :

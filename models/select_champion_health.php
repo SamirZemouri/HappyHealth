@@ -9,7 +9,7 @@ function get_health_champion($conn){
     // Execution de la requête
     $req_health_champion->execute();
     // Récupération de la liste de tous les pays, toutes les années et toutes les valeurs pour le health score
-    $health_champion = $req_health_champion5->fetchAll(PDO::FETCH_ASSOC);
+    $health_champion = $req_health_champion->fetchAll(PDO::FETCH_ASSOC);
 
     // Execution de la fonction
     return $health_champion;

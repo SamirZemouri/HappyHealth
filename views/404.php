@@ -33,8 +33,8 @@
         <h1 class="text-[#FEC505] font-bold text-2xl lg:text-7xl">Promo 106</h1>
         <h2 class="text-[#FEC505] font-bold text-2xl lg:text-5xl">Happiness Score</h2>
         <div class="lg:flex items-center">
-            <img class="lg:hidden" src="../assets/media/404-image.png" alt="Image of a happiness graphic going down and a dying emoji">
-            <img class="hidden lg:flex" src="../assets/media/404-image-desk.png" alt="Picture of a happiness graphic going down and a dying emoji">
+            <img class="lg:hidden" src="./assets/media/404-image.png" alt="Image of a happiness graphic going down and a dying emoji">
+            <img class="hidden lg:flex" src="./assets/media/404-image-desk.png" alt="Picture of a happiness graphic going down and a dying emoji">
             <div class="flex flex-col items-center">
                 <span class="text-[#DF6462] font-bold text-5xl lg:text-7xl">Rank 4<span class="text-[#44B562]">0</span>4</span>
                 <p class="text-[#DF6462] font-bold text-2xl">Connection is no more !</p>

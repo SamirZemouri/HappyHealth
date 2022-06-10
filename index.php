@@ -5,11 +5,14 @@ $url = explode('/', $_SERVER['REQUEST_URI']);
 
 // Switch qui permet de rediriger l'utilisateur selon l'url entrée.
 switch ($url[2]) {
-    case '' :
-        require __DIR__ . '/views/view.php';
+    case 'home' :
+        require __DIR__ . '/views/home.php';
         break;
-    case 'about' :
-        require __DIR__ . '/views/about.php';
+    case 'happy' :
+        require __DIR__ . '/views/happy.php';
+        break;
+    case 'health' :
+        require __DIR__ . '/views/health.php';
         break;
     default:
         http_response_code(404);
